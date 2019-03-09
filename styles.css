@@ -1,0 +1,66 @@
+    * {
+        box-sizing: border-box;
+    }
+
+/* IBM Plex Regular*/ 
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("IBM Plex Sans"), local("IBMPlexSans"), url("../IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Regular.woff") format("woff"); }
+
+  /* IBM Plex Sans Bold */
+  @font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("IBM Plex Sans Bold"), local("IBMPlexSans-Bold"), url("../IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Bold.woff") format("woff"); }
+
+
+    body {
+        max-width: 1200px;
+        display: block;
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 10% 10% 0;
+        width: 80%;
+    }
+
+/* Text Styling */
+    h1 {
+		font-family: "IBMPlexSans-Regular";
+        color: #333132;
+		font-size: 50pt;
+		font-weight: 700;
+/*		line-height: 1.5;*/
+        letter-spacing: 10px;
+    }
+
+    h2 {
+		font-family: "IBMPlexSans-Bold";
+		text-transform: uppercase;
+		line-height: 1.5;
+        color: #333132;
+        font-weight: 400;
+    }
+
+    p {
+		font-family: "IBMPlexSans-Regular";
+        color: #6b7a71;
+		line-height: 1.5;
+    }
+
+
+
+/* column styling */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
